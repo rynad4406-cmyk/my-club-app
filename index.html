@@ -494,7 +494,6 @@
             if (user) {
                 const savedName = localStorage.getItem('userName');
                 currentUserName = savedName || user.displayName || "مستخدم";
-                authCard.style.display = 'none';
                 if (authCard.style.display !== 'none') {
                     hideCardWithAnimation(authCard);
                 }
